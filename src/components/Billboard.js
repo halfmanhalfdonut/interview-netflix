@@ -34,7 +34,7 @@ export default class Billboard {
    * @returns {String} - HTML for a synopsis IF it has anything, otherwise an empty string
    */
   getSynopsisHtml() {
-    return this.synopsis ? `<p class="billboard-metadata-synopsis">${this.synopsis}</p>` : '';
+    return this.video.synopsis ? `<p class="billboard-metadata-synopsis">${this.video.synopsis}</p>` : '';
   }
 
   /**
